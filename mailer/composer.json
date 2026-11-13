@@ -1,0 +1,14 @@
+{
+    "name": "com/mailer",
+    "type": "project",
+    "description": "Bulk Email Sender with SMTP support",
+    "require": {
+        "phpmailer/phpmailer": "^6.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/",
+            "App\\Config\\": "config/"
+        }
+    }
+}
